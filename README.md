@@ -4,6 +4,8 @@
 ## used React animation 
 ## hosting for netlify
 ## This is frontend website.
+## to build this website use for netlify .
+
 
 
 
