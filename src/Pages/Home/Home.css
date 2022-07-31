@@ -1,0 +1,166 @@
+body {
+    background: #05033ff6;
+}
+
+.moving-left {
+
+    height: 71px;
+    width: 110px;
+    left: 0px;
+    margin-left: 120px;
+    position: relative;
+    transition: transform 0.4s ease;
+    transform: translateX(2px);
+    width: 100px;
+}
+
+.moving-left:hover {
+    transform: translateX(400px);
+}
+
+.moving-left img {
+    left: 8px;
+    position: absolute;
+    top: 30px;
+    z-index: 99;
+}
+
+.line {
+
+
+    width: 70px;
+    height: 0px;
+    left: 280px;
+    top: 319px;
+
+    border: 2px solid #28ACE2;
+    transform: rotate(360deg);
+
+
+}
+
+.txt-h {
+    width: 438px;
+    height: 306px;
+    margin: 100px;
+    left: 208px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 65px;
+    line-height: 70px;
+    color: #28ACE2;
+}
+
+
+.txt-p {
+    position: absolute;
+    text-align: justify;
+    width: 619px;
+    height: 120px;
+    left: 100px;
+    top: 400px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 152%;
+    color: #2EBBE5;
+}
+
+.boton1 {
+
+    height: 72px;
+    width: 249px;
+    left: 100px;
+    top: 200px;
+
+}
+
+.round1 {
+
+    position: absolute;
+    width: 553.15px;
+    height: 553.15px;
+    left: 700px;
+    top: 250.98px;
+
+}
+
+.round2 {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400.34px;
+    height: 400.34px;
+    left: 780.4px;
+    top: 325.38px;
+
+}
+
+.round3 {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 281.07px;
+    height: 281.07px;
+    left: 840.45px;
+    top: 380.43px;
+
+}
+
+.round4 {
+
+    position: absolute;
+    width: 168px;
+    height: 168px;
+    left: 900px;
+    top: 440px;
+
+}
+
+.ball1 {
+    position: absolute;
+    width: 50.35px;
+    height: 50.35px;
+    left: 900.18px;
+    top: 230px;
+}
+.ball2 {
+    position: absolute;
+    width: 30.35px;
+    height: 30.35px;
+    left: 1080.18px;
+    top: 350px;
+}
+.ball3 {
+    position: absolute;
+    width: 20.35px;
+    height: 20.35px;
+    left: 880.18px;
+    top: 405px;
+}
+
+.ball4 {
+    position: absolute;
+    width: 35.35px;
+    height: 35.35px;
+    left: 850.18px;
+    top: 590px;
+}
+.ball5 {
+    position: absolute;
+    width: 30.35px;
+    height: 30.35px;
+    left: 1160.18px;
+    top: 500px;
+}
+.ball6 {
+    position: absolute;
+    width: 30.35px;
+    height: 30.35px;
+    left: 960.18px;
+    top: 785px;
+}
